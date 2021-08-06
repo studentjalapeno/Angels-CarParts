@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f52d5cfb-caf5-4486-a7ac-b9b15233331d" name="Default Changelist" comment="Initial commit - start setup">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/products/Product/Product.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/products/Products.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f52d5cfb-caf5-4486-a7ac-b9b15233331d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/products/Product/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/products/Product/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/products/Product/Product.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/products/Products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/products/Products.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +29,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1wBj2CIovykx1fIAXJNMsGXjfRK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -53,12 +48,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Deven\Documents\CS\Web dev\angels_carparts\src\components\products" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/App.js" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.App.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -82,8 +87,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627938666533</updated>
-      <workItem from="1627938667803" duration="3993000" />
+      <workItem from="1627938667803" duration="4223000" />
+      <workItem from="1628138639391" duration="136000" />
+      <workItem from="1628270699513" duration="219000" />
+      <workItem from="1628271102455" duration="2928000" />
     </task>
+    <task id="LOCAL-00001" summary="started products components">
+      <created>1627942744256</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627942744256</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,7 +108,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Initial commit - start setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit - start setup" />
+    <MESSAGE value="started products components" />
+    <option name="LAST_COMMIT_MESSAGE" value="started products components" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2472" y="179" key="#Inspections" timestamp="1627941417462">
@@ -103,21 +120,45 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2334" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627939827065" />
-    <state x="2505" y="118" key="CommitChangelistDialog2" timestamp="1627940512603">
+    <state x="2610" y="300" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1628138759089">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2505" y="118" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627940512603" />
-    <state x="2381" y="163" key="SettingsEditor" timestamp="1627940281950">
+    <state x="2610" y="300" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628138759089" />
+    <state x="2505" y="118" key="CommitChangelistDialog2" timestamp="1627942743506">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2381" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627940281950" />
-    <state x="2689" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1627942718730">
+    <state x="2505" y="118" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627942743506" />
+    <state x="2660" y="276" key="FileChooserDialogImpl" timestamp="1628270860397">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2689" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627942718730" />
-    <state x="2536" y="240" key="run.anything.popup" timestamp="1627941986470">
+    <state x="2660" y="276" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628270860397" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1628273499006">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2536" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627941986470" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628273499006" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1628273499006">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628273499006" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1628273499005">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628273499005" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1628273499006">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628273499006" />
+    <state x="2381" y="163" key="SettingsEditor" timestamp="1628271716544">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2381" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628271716544" />
+    <state x="2689" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1628274079258">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2689" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628274079258" />
+    <state x="2536" y="240" key="run.anything.popup" timestamp="1628274050203">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2536" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628274050203" />
   </component>
 </project>
