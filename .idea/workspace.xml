@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f52d5cfb-caf5-4486-a7ac-b9b15233331d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Cart/Cart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Cart/CartItem/CartItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Cart/CartItem/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Cart/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/products/Product/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/products/Product/Product.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/products/Products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/products/Products.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +96,7 @@
       <workItem from="1628270699513" duration="219000" />
       <workItem from="1628271102455" duration="3697000" />
       <workItem from="1628315023322" duration="3243000" />
-      <workItem from="1629379646435" duration="6357000" />
+      <workItem from="1629379646435" duration="12383000" />
     </task>
     <task id="LOCAL-00001" summary="started products components">
       <created>1627942744256</created>
@@ -124,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629474185280</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add to Cart">
+      <created>1629475994958</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1629475994958</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +146,8 @@
     <MESSAGE value="finished product component" />
     <MESSAGE value="finished navbar component" />
     <MESSAGE value="added commerce products using Commerce.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="added commerce products using Commerce.js" />
+    <MESSAGE value="Add to Cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add to Cart" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2472" y="179" key="#Inspections" timestamp="1627941417462">
@@ -156,10 +166,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2610" y="300" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628138759089" />
-    <state x="2505" y="118" key="CommitChangelistDialog2" timestamp="1629474184707">
+    <state x="2505" y="118" key="CommitChangelistDialog2" timestamp="1629475994148">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2505" y="118" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1629474184707" />
+    <state x="2505" y="118" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1629475994148" />
     <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1628321921437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -185,9 +195,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628315265872" />
-    <state x="2689" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1629475974703">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1629488560970">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1629488560970" />
     <state x="2689" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1629475974703" />
     <state x="2536" y="240" key="run.anything.popup" timestamp="1628274050203">
       <screen x="1920" y="0" width="1920" height="1040" />
